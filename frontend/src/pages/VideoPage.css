@@ -1,0 +1,64 @@
+.leftBorder{
+    background-color: #0096D6;
+    width: 4%;
+    /* position: absolute;
+    left: 0; */
+    float: left;
+}
+
+.videos {
+    margin-left: 20px;
+}
+
+.videoPage {
+    height: 87vh;
+}
+
+#videoPlayer{
+    /* margin-top: 10%; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 10px 10px 5px grey;
+    
+}
+
+.margin{
+    
+    padding-right: 1.2rem;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 3%;
+    color: #5A5A5A;
+    font-size: 1.9rem;
+    margin-bottom: 1%;
+}
+
+.noVideos{
+    font-size: 2rem;
+    text-align: center;
+    color: #5A5A5A;
+}
+
+@media screen and (max-width: 472px) {
+    h3 {
+        text-align: center;
+        margin-top: 3%;
+        color: #5A5A5A;
+        font-size: 1rem;
+        margin-bottom: 1%;
+    }
+
+    #videoPlayer{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 400px;
+        width: 100%;
+    }
+}
+

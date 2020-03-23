@@ -1,0 +1,47 @@
+nav { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFF;
+    border-bottom: 3px solid #0096D6;
+    z-index: 10;
+    height: 13vh;
+}
+  
+.title {
+    font-size: 80px;
+    color: #5A5A5A;
+    margin-left: 3%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+@media screen and (max-width: 578px) {
+    .title {
+        font-size: 3rem;
+        color: #5A5A5A;
+        margin-left: 3%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    .navItem{
+        font-size: 1.5rem;
+    }
+    .img{
+        width: 70px;
+        height: 70px;
+    }
+}
+
+
+
+
+

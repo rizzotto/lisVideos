@@ -1,0 +1,35 @@
+
+.dropContainer {
+    border: 1px dashed #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+
+    transition: height 02s ease;
+}
+
+
+/* Text from the Dropzone */
+.default{
+    display: flex;
+    color: #999;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.success {
+    display: flex;
+    color: #78e5d5;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.reject {
+    display: flex;
+    color: #e57878;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+}
+/*  */

@@ -1,0 +1,18 @@
+
+
+.content {
+    width: 100%;
+    max-width: 400px;
+    margin: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.outside{
+    min-height: 87vh; 
+    background: #0096D6;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
