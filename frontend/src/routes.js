@@ -4,7 +4,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import Nav from './pages/Nav'
+import Nav from './components/Nav'
 import VideoPage from './pages/VideoPage'
 import UploadPage from './pages/UploadPage'
 

@@ -36,6 +36,7 @@ h3 {
     font-size: 2rem;
     text-align: center;
     color: #5A5A5A;
+    padding-top: 10%;
 }
 
 @media screen and (max-width: 472px) {
