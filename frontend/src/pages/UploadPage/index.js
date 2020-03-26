@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import './UploadPage.css'
-import FileList from '../components/FileList'
-import Upload from '../components/Upload'
+import './styles.css'
+import FileList from '../../components/FileList'
+import Upload from '../../components/Upload'
 import { uniqueId } from 'lodash'
 import filesize from 'filesize'
-import api from '../services/api'
+import api from '../../services/api'
 
 class UploadPage extends Component {
 

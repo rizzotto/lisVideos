@@ -1,10 +1,7 @@
 import React from 'react';
 import {useState, useEffect} from 'react';
-import api from '../services/api'
-import './VideoPage.css'
-
-
-
+import api from '../../services/api'
+import './styles.css'
 
 
 export default function VideoPage(){
@@ -37,9 +34,10 @@ export default function VideoPage(){
   useEffect(() => {
     testApi()
   },[])
+
+
   return(
     <div className="videoPage">
-      {/* <div className="leftBorder"></div> */}
       <div className="videos">
         {names.length === 0  ? <div className="noVideos"><p>Upload a Video First</p></div> :
 
